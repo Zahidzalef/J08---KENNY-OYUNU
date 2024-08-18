@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
 
                         // restart
 
-                        
                         Intent intent = getIntent();
                         finish();
                         startActivities(new Intent[]{intent});
